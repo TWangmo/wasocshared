@@ -13,6 +13,7 @@ Adobe has released a security update for Adobe Acrobat and Reader for Windows an
 ## What has been observed?
 
 The WASOC has observed claims of exploitation in the wild.
+The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
 
@@ -22,4 +23,4 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 
 ## Additional References
 
-- <https://starlabs.sg/blog/2026/04-three-bugs-walk-into-a-pdf-prototype-pollution-served-cold/>
+- Starlabs Article: <https://starlabs.sg/blog/2026/04-three-bugs-walk-into-a-pdf-prototype-pollution-served-cold/>
