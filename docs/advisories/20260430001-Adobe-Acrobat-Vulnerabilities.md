@@ -9,8 +9,7 @@ Adobe is not aware of any exploits in the wild for any of the issues addressed i
 
 | Product(s) Affected           | Version(s)                                                          | CVE                                                               | CVSS | Severity |
 | ----------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| Acrobat DC, Acrobat Reader DC | Version prior to 26.001.21411                                       | [CVE-2026-34622](https://nvd.nist.gov/vuln/detail/CVE-2026-34622) | 8.6  | High     |
-| Acrobat 2024                  | Version Win: prior to 24.001.30362 <br/> Mac: prior to 24.001.30360 | [CVE-2026-34622](https://nvd.nist.gov/vuln/detail/CVE-2026-34622) | 8.6  | High     |
+| Acrobat DC <br> Acrobat Reader DC <br> Acrobat 2024 | 26.001.21411 and earlier <br> 26.001.21411 and earlier <br/> Windows 24.001.30362 and earlier , Mac 24.001.30360 and earlier | [CVE-2026-34622](https://nvd.nist.gov/vuln/detail/CVE-2026-34622) | 8.6  | High |
 
 ## What has been observed?
 
