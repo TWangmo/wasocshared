@@ -2,8 +2,8 @@
 
 ## Overview
 
-Adobe has released a security update for Adobe Acrobat and Reader for Windows and macOS. This update addresses critical and important vulnerabilities. Successful exploitation could lead to arbitrary code execution and arbitrary file system read.
-Adobe is not aware of any exploits in the wild for any of the issues addressed in these updates.
+Adobe has released a security update for Adobe Acrobat and Reader for Windows and macOS. This update addresses critical and important vulnerabilities affected by an Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+
 
 ## What is vulnerable?
 
@@ -13,10 +13,13 @@ Adobe is not aware of any exploits in the wild for any of the issues addressed i
 
 ## What has been observed?
 
-The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
+The WASOC has observed claims of exploitation in the wild.
 
 ## Recommendation
 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
 - Adobe Security Bulletin: <https://helpx.adobe.com/security/products/acrobat/apsb26-44.html>
+
+## Additional References
+ - <https://starlabs.sg/blog/2026/04-three-bugs-walk-into-a-pdf-prototype-pollution-served-cold/>
