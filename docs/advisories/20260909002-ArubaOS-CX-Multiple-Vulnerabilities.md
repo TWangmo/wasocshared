@@ -2,13 +2,13 @@
 
 ## Overview
 
-The WASOC has been made aware of multiple vulnerabilities in ArubaOS-CX that may allow for improper processing of malformed input. Successful exploitation could result in remote code execution with elevated privileges.
+HPE have published updated advisory addressing multiple vulnerabilities affecting their HPE Aruba Networking ArubaOS-CX (AOS-CX) products. Successful exploitation by threat actor could result in remote code execution with elevated privileges.
 
 ## What is vulnerable?
 
 | Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
 | ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| ArubaOS-CX   | Versions <br>AOS-CX 10.18.1002 and above <br>-AOS-CX 10.17.1030 and above <br>-AOS-CX 10.16.1060 and above<br>-AOS-CX 10.13.1190 and above<br>-AOS-CX 10.10.1181 and above (EOM)  | [CVE-2026-73749](https://nvd.nist.gov/vuln/detail/cve-2026-73749)                                                                        | 9.8          | **Critical**                                   |
+| HPE Networking AOS-CX  | Versions <br>-10.18.0001 prior to 10.18.1002 <br>-10.17.1021 prior to 10.17.1030 <br>-10.16.1051 prior to 10.16.1060<br>-10.13.1180 prior to 10.13.1190 <br>-10.10.1180 prior to 10.10.1181 | [CVE-2026-73749](https://nvd.nist.gov/vuln/detail/cve-2026-73749)                                                                        | 9.8          | **Critical**                                   |
 
 
 ## What has been observed?
